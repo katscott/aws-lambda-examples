@@ -1,0 +1,16 @@
+{
+  "name": "hello-api",
+  "version": "1.0.0",
+  "description": "Hello API",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.local.js",
+    "test": "jest"
+  },
+  "author": "Kat Scott",
+  "license": "MIT",
+  "devDependencies": {
+    "jest": "^24.5.0",
+    "lambda-tester": "^4.0.0"
+  }
+}
