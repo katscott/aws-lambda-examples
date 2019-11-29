@@ -1,9 +1,12 @@
-exports.handler = function(event, context) {
-    const name = event.name || "";
+const debug_env = process.env.DEBUG;
+const debug = debug_env ? debug_env.toLowerCase() === "true" : false;
 
-    if (name === "") {
-        context.succeed("Greetings!");
+exports.handler = function(event, context) {
+    if (debug) {
+        console.log(event);
     }
 
-    context.succeed(`Greetings ${name}!`);
+    const name = event.name || "";
+
+    context.succeed({ message: `Greetings${name ? " " + name : ""}!` });
 };

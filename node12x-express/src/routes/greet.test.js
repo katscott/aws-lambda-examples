@@ -1,10 +1,9 @@
 const request = require("supertest");
 const express = require("express");
 
-const routes = require("./index");
+const routes = require("./greet");
 
 describe("Greet routes", () => {
-    const basePath = "/api/greet";
     let app;
 
     beforeAll(() => {
@@ -12,18 +11,18 @@ describe("Greet routes", () => {
         app.use("/", routes);
     });
 
-    it(`GET ${basePath} returns 200`, async () => {
+    it(`GET / returns 200`, async () => {
         await request(app)
-            .get(basePath)
+            .get("/")
             .set("Accept", "application/json")
             .expect("Content-Type", /json/)
             .expect(200);
     });
 
-    it(`GET ${basePath}/{name} returns 200`, async () => {
+    it(`GET /{name} returns 200`, async () => {
         const testName = "Trillian";
         await request(app)
-            .get(`${basePath}/${testName}`)
+            .get(`/${testName}`)
             .set("Accept", "application/json")
             .expect("Content-Type", /json/)
             .expect(200);
