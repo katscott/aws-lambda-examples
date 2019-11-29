@@ -1,0 +1,22 @@
+{
+  "name": "hello-api",
+  "version": "1.0.0",
+  "description": "Hello API",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.local.js",
+    "test": "jest"
+  },
+  "author": "Kat Scott",
+  "license": "MIT",
+  "dependencies": {
+    "aws-serverless-express": "^3.3.6",
+    "cors": "^2.8.5",
+    "express": "^4.16.4"
+  },
+  "devDependencies": {
+    "jest": "^24.5.0",
+    "nodemon": "^1.19.4",
+    "supertest": "^4.0.2"
+  }
+}
