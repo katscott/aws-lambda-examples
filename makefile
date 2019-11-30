@@ -24,4 +24,3 @@ $(SUBDIRS):
 	@printf '$(bold)===================================$(sgr0)\n'
 	@printf '$(bold)==> $@: make $(MAKECMDGOALS)$(sgr0)\n'
 	@$(MAKE) -C $@ $(MAKECMDGOALS)
-	
