@@ -1,10 +1,10 @@
-# Node 12.x Lambda Greetings API
+# Go 1.x Lambda Greetings API
 
-An basic Node 12.x lambda function that returns greetings.
+A basic Go 1.x lambda function that returns greetings.
 
 ## Getting Started
 
-Initialize your development environment with `make init`.
+Initialize with `make init`.
 
 ## Build & Run
 

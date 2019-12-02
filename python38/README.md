@@ -1,6 +1,6 @@
-# Node 12.x Lambda Greetings API
+# Python 3.8 Lambda Greetings API
 
-An basic Node 12.x lambda function that returns greetings.
+A basic Python 3.8 lambda function that returns greetings.
 
 ## Getting Started
 

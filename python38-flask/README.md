@@ -1,6 +1,6 @@
-# Node 12.x Lambda Greetings API
+# Python 3.8 Flask Lambda Greetings API
 
-An basic Node 12.x lambda function that returns greetings.
+An [Flask](https://github.com/pallets/flask) based Python 3.8 lambda function that returns greetings.
 
 ## Getting Started
 
