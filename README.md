@@ -3,12 +3,12 @@
 Example starter projects for AWS lambda.
 
 Each folder contains a single function example of a Greetings API
-- [Go 1.x Basic](go1x/README.md)
-- [Go 1.x Echo API](go1x-echo/README.md)
-- [Node 12.x Basic](node12x/README.md)
-- [Node 12.x Express](node12x-express/README.md)
-- [Python 3.8 Basic](python38/README.md)
-- [Python 3.8 Flask](python38-flask/README.md)
+- [Go 1.x Basic](go1x)
+- [Go 1.x Echo API](go1x-echo)
+- [Node 12.x Basic](node12x)
+- [Node 12.x Express](node12x-express)
+- [Python 3.8 Basic](python38)
+- [Python 3.8 Flask](python38-flask)
 
 ## Getting Started
 
