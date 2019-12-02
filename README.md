@@ -16,7 +16,7 @@ Each project can be initialized (download dependencies, etc.) with `make init`. 
 
 ## Build & Run
 
-To build an run any function example, in its root use `make run` to run the function in a local lambda docker container.
+To build and run any function example, in its root use `make run` to run the function in a local lambda docker container.
 
 ## Packaging
 
