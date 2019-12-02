@@ -1,6 +1,6 @@
-# Node 12.x Lambda Greetings API
+# Go 1.x Echo Lambda Greetings API
 
-An basic Node 12.x lambda function that returns greetings.
+An [Echo](https://github.com/labstack/echo) based Go 1.x lambda function that returns greetings.
 
 ## Getting Started
 

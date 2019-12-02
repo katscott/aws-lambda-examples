@@ -1,17 +1,15 @@
-# Node.js Express Lambda
+# Node 12.x Express Lambda Greetings API
 
-To start the app locally:
-```
-make start
-```
+An [Express](https://github.com/expressjs/expressjs.com) based Node 12.x lambda function that returns greetings.
 
-To run the app locally in docker-lambda:
-```
-make run
-```
+## Getting Started
 
-To run tests:
-```
-make test
-```
+Initialize your development environment with `make init`.
 
+## Build & Run
+
+Use `make run` to run the function in a local lambda docker container.
+
+## Packaging
+
+Use `make package` to create a zipped package for upload to AWS.
